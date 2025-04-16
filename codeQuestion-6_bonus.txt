@@ -1,0 +1,2 @@
+// Qual è il metodo migliore per clonare l’oggetto chef, e perché?
+        anche se meno immediato direi di usare lo spread operator assicurandosi però di clonare ogni livello dell'oggetto chef in quanto è il modo migliore per avere un clone perfettamente funzionante (con structuredClone(chef) si otterrebbe l'intero oggetto ma le funzioni al suo interno non sarebbero funzionanti)

@@ -1,0 +1,16 @@
+// Senza lanciare il codice, riesci a prevedere cosa viene stampato in console?
+        22 - "Anonymous Chef"
+        23 - "Chef Hyur"
+        24 - "Hyur's Burgers"
+        25 - "Hyur's II"
+
+// Quanti oggetti sono stati creati in memoria durante l'esecuzione di questo codice?
+        6 objects con riferimento a:
+            hamburger
+            hamburger.maker
+            hamburger.maker.restaurant
+
+            newrestaurant
+
+            secondBurger (con riferimento ad hamburger.maker e hamburger.maker.restaurant)
+            secondBurger.maker (con la modifica a riga 19 viene modificato un riferimento interno, questo crea un nuovo oggetto)
