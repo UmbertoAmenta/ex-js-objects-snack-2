@@ -1,0 +1,12 @@
+// P.S.: Ricordati che gli Array, come gli oggetti, sono dei Reference Type (Tipi di Riferimento)!
+// Senza lanciare il codice, riesci a prevedere cosa viene stampato in console?
+        10 - "Salad"
+        11 - "Salad"
+
+// Quanti oggetti sono stati creati in memoria durante l'esecuzione di questo codice?
+        3: l'object hamburger,
+           l'array il cui riferimento è contenuto in hamburger.ingredients,
+           l'object secondBurger
+
+Note
+        sia hamburger.ingredients che secondBurger.ingredients si riferiscono allo stesso array (è stata eseguita una shallow copy di hamburger)

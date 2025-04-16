@@ -1,0 +1,16 @@
+// Quanti oggetti sono stati creati in memoria durante l'esecuzione di questo codice?
+        9 objects con riferimento in:
+           hamburger,
+           hamburger.maker,
+           hamburger.maker.restaurant,
+
+           secondBurger,
+           secondBurger.maker,
+           secondBurger.maker.restaurant,
+
+           thirdBurger,
+           thirdBurger.maker,
+           thirdBurger.maker.restaurant
+
+Note
+    La deep copy di hamburger fa sì che vengano copiati i 3 oggetti ai quali si fa riferimento in hamburger

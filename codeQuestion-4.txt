@@ -1,0 +1,5 @@
+// Qual è il metodo migliore per clonare l’oggetto chef, e perché?
+        l'utilizzo dello spread operator, quandi la shallow copy {...chef} in quanto, per la proprietà makeBurger, permette la clonazione della funzione che ha per valore
+
+// Qual è il metodo migliore per clonare l’oggetto restaurant, e perché?
+        la deep copy structuredClone(restaurant) poichè riesce a clonare oggetto su tutti i suoi livelli incluso l'oggetto complesso (Date) alla proprietà openingDate

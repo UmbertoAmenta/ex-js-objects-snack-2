@@ -1,0 +1,12 @@
+// Senza lanciare il codice, riesci a prevedere cosa viene stampato in console?
+        6 - "Double Cheese Burger"
+        7 - "Double Cheese Burger"
+
+
+// Quanti oggetti sono stati creati in memoria durante l'esecuzione di questo codice?
+        Soltanto 1: {name:"Cheese Burger", weight:250}
+
+
+
+Note
+        Le variabili hamburger e secondBurger contengono il riferimento allo stesso oggetto
