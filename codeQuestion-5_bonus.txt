@@ -1,11 +1,14 @@
 // Senza lanciare il codice, riesci a prevedere cosa viene stampato in console?
-        22 - "Anonymous Chef"
+        22 - ~~~~"Anonymous Chef"~~~~ // "Chef Hyur" (risposta corretta)
         23 - "Chef Hyur"
-        24 - "Hyur's Burgers"
+        24 - ~~~~"Hyur's Burgers"~~~~ // "Hyur's II" (risposta corretta)
         25 - "Hyur's II"
 
+        Nota
+                a riga 23 viene eseguita una copia superficiale di hamburger, quindi maker e maker.restaurant non vengono clonati, viene solo copiato il loro riferimento
+
 // Quanti oggetti sono stati creati in memoria durante l'esecuzione di questo codice?
-        6 objects con riferimento a:
+        5 objects con riferimento a:
             hamburger
             hamburger.maker
             hamburger.maker.restaurant
@@ -13,4 +16,3 @@
             newrestaurant
 
             secondBurger (con riferimento ad hamburger.maker e hamburger.maker.restaurant)
-            secondBurger.maker (con la modifica a riga 19 viene modificato un riferimento interno, questo crea un nuovo oggetto)
