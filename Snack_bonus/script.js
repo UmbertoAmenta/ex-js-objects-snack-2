@@ -1,6 +1,11 @@
 // Crea una funzione che permette la copia profonda (deep copy) di un oggetto, che copia anche i suoi metodi (proprietà che contengono funzioni). Usa l’oggetto di Code Question 6 come test.
 // ⚠️ Serve usare una funzione ricorsiva! (fai un po’ di ricerca).
-
+/**
+ * Copy all levels of an object (methods included) with a recursive function
+ *
+ * @param {object} objectToCopy - Array/Object to clone
+ * @returns {object} New array/object cloned
+ */
 function deepFullCopyObject(objectToCopy) {
   if (objectToCopy && typeof objectToCopy === "object") {
     const clonedObject = Array.isArray(objectToCopy) ? [] : {};
